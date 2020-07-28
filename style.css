@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+
+body {
+	text-align: center;
+	background-color: WhiteSmoke;
+	color: #444444;
+	font-size: 0.9em;
+	font-family: Arial, Tahoma, Arial;
+}
+
+hr {
+	border-style: dashed;
+	border-width: 3px;
+	border-color: #666666;
+}
+
+h1, h2, h3, h4 {
+	color: #333333;
+}
+
+ul li {
+	list-style: square;
+}
+
+ul li ul li {
+	list-style: disc;
+}
+
+a:link, a:visited{
+	color: LightSlateGray;
+}
+a:acitve, a:hover{
+	color: SteelBlue;
+}
+
+/* style of container */
+
+.container {
+	padding: 10px;
+	width: 768px;
+	background-color: Black;
+	text-align: center;
+}
+
+
+/* style of header */
+
+.header {
+	margin-bottom: 10px;
+	padding: 50px;
+	background-color: SteelBlue;
+	color: White;
+}
+
+.header h1, .header p {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS";
+}
+
+.header h1 {
+	font-size: 2.5em;
+}
+
+
+/* style of category */
+
+.category {
+	margin-bottom: 10px;
+	padding: 7px;
+	font-size: 1.0em;
+	font-weight: bold;
+	background-color: DimGray;
+	color: White;
+}
+
+.category a {
+	text-decoration: none;
+}
+
+.category a:link, .category a:visited {
+	color: LightGrey;
+}
+
+.category .selected a {
+	color: White;
+}
+
+.category a:activce, .category a:hover {
+	color: SkyBlue;
+}
+
+.category ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.category ul li {
+	margin: 3px;
+	padding: 3px;
+	display: inline;
+}
+
+
+/* style of contents */
+
+.contents {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: White;
+	text-align: left;
+}
+
+
+/* style of footer */
+
+.footer {
+	padding: 20px;
+	background-color: CadetBlue;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:link, .footer a:visited {
+	color: White;
+}
+
+.footer a:active, .footer a:hover {
+	color: LightBlue;
+}
